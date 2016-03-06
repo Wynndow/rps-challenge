@@ -1,10 +1,10 @@
 This is my solution to the Makers Academy weekend challenge, Rock Paper Scissors. It includes the two bonus levels of making in multiplayer as well as including Spock and lizard.
 
-To use the program, please run '$ bundle install --without test' from the command line to install the necessary gems.
+To use the program, please run ```$ bundle install --without test``` from the command line to install the necessary gems.
 
-If you would like to run the tests or develop the program, please run '$ bundle install' for all necessary gems.
+If you would like to run the tests or develop the program, please run ```$ bundle install`` for all necessary gems.
 
-To start the program, simply run '$ rackup' and visit http://localhost:9292/ in your browser.
+To start the program, simply run ```$ rackup``` and visit http://localhost:9292/ in your browser.
 
 If you are testing the program, Capybara is used to test the interface. If you wish to see this in action you can enable selenium-webdriver by activating line 14 of the spec helper file.
 
