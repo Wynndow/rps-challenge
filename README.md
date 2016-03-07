@@ -1,17 +1,25 @@
-This is my solution to the Makers Academy weekend challenge, Rock Paper Scissors. It includes the two bonus levels of making in multiplayer as well as including Spock and lizard.
+## Rock Paper Scissors
 
-To use the program, please run ```$ bundle install --without test``` from the command line to install the necessary gems.
+#### About
+The weekend challenge for week 3 of Makers Academy was to create a web application that allows two people to play Rock, Paper, Scissors. It was written in Ruby and uses the Sinatra framework. It was test driven using RSpec and Capybara. I have extendd the game to include two further weapons, Spock and Lizard. The rules for Rock, Paper, Stone, Spock Lizard can be found [here](https://en.wikipedia.org/wiki/Rock-paper-scissors).
 
-If you would like to run the tests or develop the program, please run ```$ bundle install`` for all necessary gems.
+#### Installation
 
-To start the program, simply run ```$ rackup``` and visit http://localhost:9292/ in your browser.
+0. Clone this repo `$ git clone git@github.com:Wynndow/rps-challenge.git`
+0. Change directory into the project `$ cd rps-challenge`
+0. Install dependencies `$ bundle`
 
-If you are testing the program, Capybara is used to test the interface. If you wish to see this in action you can enable selenium-webdriver by activating line 14 of the spec helper file.
+#### Usage
 
-Thanks,
+0. Start the server `$ rackup`
+0. Using your favourite browser, navigate to `http://localhost:9292/`
+0. Play!
 
-Chris
+#### Running tests
 
+0. Tests are run form the command line using ```$ rspec```
+
+#### Original instructions
 
 
 # RPS Challenge: Rōnin Badge Test
